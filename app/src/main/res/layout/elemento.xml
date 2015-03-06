@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/ivMarca"
+        android:src="@drawable/icono"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvModeloE"
+        android:layout_toRightOf="@+id/ivMarca"
+        android:layout_toEndOf="@+id/ivMarca"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:paddingTop="10dp"
+        android:gravity="top"
+        android:textColor="#ff000000" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCaracteristicasE"
+        android:layout_toRightOf="@+id/ivMarca"
+        android:layout_toEndOf="@+id/ivMarca"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignRight="@+id/tvModeloE"
+        android:layout_alignEnd="@+id/tvModeloE"
+        android:layout_above="@+id/textView3"
+        android:layout_below="@+id/tvModeloE"
+        android:gravity="top" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/peso"
+        android:id="@+id/textView3"
+        android:textSize="16sp"
+        android:layout_alignBottom="@+id/ivMarca"
+        android:layout_alignLeft="@+id/tvCaracteristicasE"
+        android:layout_alignStart="@+id/tvCaracteristicasE"
+        android:paddingBottom="10dp"
+        android:gravity="top" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPeso"
+        android:layout_toEndOf="@+id/textView3"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
+        android:textSize="16sp"
+        android:paddingBottom="10dp"
+        android:gravity="top" />
+
+</RelativeLayout>

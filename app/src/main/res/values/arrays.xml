@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Marca">
+        <item>Adidas</item>
+        <item>Asics</item>
+        <item>Brooks</item>
+        <item>Mizuno</item>
+        <item>New Balance</item>
+        <item>Nike</item>
+        <item>Saucony</item>
+    </string-array>
+</resources>
